@@ -1,4 +1,4 @@
-# MCIS6273 FALL23 Data Mining
+# MCIS6273 FALL 2023 Data Mining
 
 
 ## Homeworks
