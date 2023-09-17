@@ -166,8 +166,9 @@ questions below. You can listen to it from one of the two links below:
 **&#167; Task:**  **PLEASE ANSWER THE FOLLOWING QUESTIONS AFTER LISTENING TO THE PODCAST**:
 
   1. List 3 things that you learned from this podcast?
-  2. What is your reaction to the podcast? Pick at least one point Adam brought up in the interview that you agree with and list your reason why.
-  3. After listening to the podcast, do you think you are more interested or less interested in learning from Jupyter notebooks on Github?
+  2. What is your reaction to the podcast? Pick at least one point brought up in the interview that you agree with and list your reason why.
+  3. After listening to the podcast, do you think you are more informed about the importance of Python to Data Science?  How? (Be brief -- one sentence will suffice.)
+  4. List one _surprising_ fact you learned from listening to this podcast.
 
 
 
