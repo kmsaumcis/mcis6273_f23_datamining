@@ -144,6 +144,34 @@ and familiarize yourself with your files and basic commands using git as indicat
 
 
 
+### (30%) Listen to the Talk Python To Me from July 7, 2023: How data scientists use Python 
+
+Data science is one of the most important and "hot" disciplines today
+and there is a lot going on from data engineering to modeling and
+analysis. Python is critial to the data scientists 
+toolkit, but they are interesting in their own right.  
+
+Why?
+
+In this short, interesting and informative podcast, you will learn about
+the reasons why Python is so hot, and how Python made it to the top 
+of the data science stack.
+
+Please listen to this one hour podcast and answer some of the 
+questions below. You can listen to it from one of the two links below:
+
+* Talk Python['Podcast'] [Show #433: How data scientists use Python](https://talkpython.fm/episodes/show/422/how-data-scientists-use-python)
+* direct link to mp3 file [how-data-scientists-use-python.mp3](https://talkpython.fm/episodes/download/422/how-data-scientists-use-python.mp3)
+
+**&#167; Task:**  **PLEASE ANSWER THE FOLLOWING QUESTIONS AFTER LISTENING TO THE PODCAST**:
+
+  1. List 3 things that you learned from this podcast?
+  2. What is your reaction to the podcast? Pick at least one point brought up in the interview that you agree with and list your reason why.
+  3. After listening to the podcast, do you think you are more informed about the importance of Python to Data Science?  How? (Be brief -- one sentence will suffice.)
+  4. List one _surprising_ fact you learned from listening to this podcast.
+
+
+
 ### (30%) Perfom basic data engineering in Python using Gutenberg.org text of Bertrand Russell's 1912 work _The Problems of Philosophy_ 
 
 You learned from the prior part that data science
