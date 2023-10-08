@@ -22,7 +22,7 @@ MCIS6273 Data Mining (Prof. Maull) / Fall 2023 / HW1
 
 * Perform data engineering  in Pandas
 
-* Perform and exploratory data analysis (EDA) in Pandas
+* Perform exploratory data analysis (EDA) in Pandas
 
 * Perform pattern mining with the `mlxtend` library
 
@@ -54,7 +54,7 @@ You will listen to the approx. 38 minute podcast [Making Data Simple](https://pl
 interview with Mike Kaeding, CEO of [Norhart](https://norhart.com),
 who goes into detail about innovation in the apartment industry.
 
-You can listen to / watch the show from one of the links below (there are others (i.e. Apple Podcasts) if you search):
+You can listen to / watch the show from one of the links below:
 
 * (main page) [Player.fm: Making Data Simple | _Data-Driven Apartment Innovation: A Conversation with Mike Kaeding | Part 1_ ](https://player.fm/series/making-data-simple/data-driven-apartment-innovation-a-conversation-with-mike-kaeding-part-1)
 * (mp3 direct) [MP3 file direct download](https://audio.buzzsprout.com/wwmajkmvz2edu2ihrsiw7rrgwoul?response-content-disposition=inline&)
@@ -121,9 +121,9 @@ Your Python program / notebook must do the following:
 
 (1) fetch to your local file system on Jupyter Hub 
 the main remote data file (there is only one given above)
-(2)  Once you have fetched the file, make 6 new CSV files from it which 
+(2)  once you have fetched the file, make 6 new CSV files from it which 
 will act in a similar way as binary databases (similar to those you have read about
-in Zaki, Ch. 8 and in lecture) .  We are going to use these in the next 
+in Zaki, Ch. 8 and in lecture).  We are going to use these in the next 
 part:
 
 * **file 1 (`dataset_2000_2359.csv`)**:
@@ -170,7 +170,7 @@ You do not want to overthink this, but you  **must use the filenames provided**.
 
 
 
-### (25%) Perform and exploratory data analysis (EDA) in Pandas 
+### (25%) Perform exploratory data analysis (EDA) in Pandas 
 
 Now that we have data, let's perform additional analysis on it.
 
@@ -179,7 +179,7 @@ and for now, we will not come back to the files we
 generated in the prior part until the next
 part of this homework.
 
-Let's find out about our data ... learn a few 
+Let's find out about our data to learn a few 
 things about what is there.
 
 You will need to use the original dataset (not
@@ -253,7 +253,7 @@ Now that we have data, let's perform additional analysis on it.
 In the prevous part we use the _proximity_ of forest density as a
 proxy for _urbanization_.  While this may not fully be
 a founded assumption, for the purpose of this 
-assignment, we will go with that.
+assignment that assumption is sufficient.
 
 One interesting area to explore, is which 
 species are out _earlier_ in the evening,
@@ -303,9 +303,15 @@ frequent patterns functions in
 
 * [`apriori()`](https://rasbt.github.io/mlxtend/user_guide/frequent_patterns/apriori/)
 
+You will also need to execute to install seaborn:
 
-We would ultimately be able to answer
-the questions below, and each question 
+```bash
+!conda install -y seaborn # you must use -y 
+```
+
+Once we have everything set up,
+we would ultimately be able to answer
+the questions below. Remember each question 
 **must be accompanied by the corresponding
 Pandas and mlxtend code to earn full credit**:
 
