@@ -198,7 +198,7 @@ You will also need to use the Seaborn (SNS) heatmap function here:
 In your notebook, you will also need to execute to install seaborn:
 
 ```bash
-!conda install -y seaborn # you must use -y 
+  !conda install -y seaborn -c conda-forge # you must use -y 
 ```
 
 Each question **must be accompanied by the corresponding
@@ -264,14 +264,14 @@ into a quadrant:
 |  | early evening (_9p-1159p_) | late evening (_12a-4a_) |
 | --:    | :-:| :-:| 
 | urban |  ?  | ?  | 
-| rural |  ?  |  ? |
+| rural |  ?  | ?  |
 
 You might start to wonder a number of things
 and already be thinking maybe you have the data
 to answer this or that question.  And you might be right
 but ... we are going to throw a twist into our 
 inquiry.  We are going to consider this a
-frequent pattern mining problem and 
+_frequent pattern mining_ problem and 
 think about this using tools for mining
 frequent patterns.
 
@@ -288,7 +288,8 @@ The setup goes something like this:
 such that the rows were the dates
 and the columns the species, we
 could consider it a transaction
-$t \in T$ with items $i \in I$, where
+$t \in T$ with items 
+$i \in I$, where
 $i$ are just the species occuring
 in that date (transaction $t$)
 
@@ -306,7 +307,7 @@ frequent patterns functions in
 You will also need to execute to install seaborn:
 
 ```bash
-!conda install -y seaborn # you must use -y 
+  !conda install -y mlxtend -c conda-forge # you must use -y 
 ```
 
 Once we have everything set up,
@@ -337,8 +338,8 @@ Compare and contrast them.  Do you see any surprises or are these what you expec
 
 Fill in the table with the most frequent itemset (with length $> 1$) of highest support for each:
 
-|  | early_eve | late_eve |
-| --    | ---|---| 
+|  | early evening (_9p-1159p_) | late evening (_12a-4a_) |
+| --:   | :-: | :-: | 
 | urban |  (A, B); $\mathit{sup} = 0.45$ |  (A, B, G); $\mathit{sup} = 0.45$ | 
 | rural |   (A, H, K, N); $\mathit{sup} = 0.45$  | (C, B); $\mathit{sup} = 0.65$  |
 
