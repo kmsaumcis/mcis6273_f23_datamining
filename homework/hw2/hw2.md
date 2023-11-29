@@ -138,6 +138,25 @@ should look close to one another.
 There are many clustering algorithms, but one of the most robust and
 useful is the $K$-means algorithm.  
 
+**&#167; Task:**  Prepare the data such that you have three datasets where the `REFUSAL_CHARGES`,
+`ISO_CNTRY_CODE` and `CITY_NAME` are the columns (features).
+
+You will need to use the `LabelBinarizer()` (for countries and cities) and `MultiLabelBinarizer()` (for the charges)
+of the sklearn libraries.
+
+See:
+
+* [`sklearn.preprocessing.LabelBinarizer()`](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelBinarizer.html) 
+* [`sklearn.preprocessing.MultiLabelBinarizer()`](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MultiLabelBinarizer.html)
+
+
+**&#167; Task:**  Merge the three Dataframes above into one -- the final Dataframe should have 435 columns.  These
+represent the features that will allow clustering to occur.  This will allow us to see
+the clusters that emerge along those categories of features in the data.  With a bit 
+more information, we might come to the conclusion that some of these features should
+be removed.
+
+
 **&#167; Task:**  You will now take the dataset from the first part and begin the process of 
 clustering.
 
